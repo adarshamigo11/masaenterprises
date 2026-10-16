@@ -75,7 +75,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center">
             <img
               src="/images/logo.png"
-              alt="Nextway Infotech"
+              alt="MASA Enterprises"
               className="h-14 w-36 object-contain"
             />
           </Link>
@@ -104,7 +104,7 @@ export default function Navbar() {
             >
               <img
                 src="/images/logo.png"
-                alt="Nextway Infotech"
+                alt="MASA Enterprises"
                 className="h-9 w-24 object-contain"
               />
             </Link>
@@ -201,7 +201,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center">
             <img
               src="/images/logo.png"
-              alt="Nextway Infotech"
+              alt="MASA Enterprises"
               className="h-9 w-24 object-contain"
             />
           </Link>

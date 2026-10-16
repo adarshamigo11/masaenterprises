@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="flex flex-col gap-4">
             <div className="flex items-center">
-              <img src="/images/logo.png" alt="Nextway Infotech" className="h-14 w-auto" />
+              <img src="/images/logo.png" alt="MASA Enterprises" className="h-14 w-auto" />
             </div>
             <p className="text-base leading-relaxed text-white/80">Trusted financial technology solutions for businesses worldwide.</p>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 border-t border-white/20 pt-6 text-center">
-          <p className="text-base text-white/60">{new Date().getFullYear()} Nextway Infotech Private Limited. All rights reserved.</p>
+          <p className="text-base text-white/60">{new Date().getFullYear()} MASA Enterprises Private Limited. All rights reserved.</p>
           <div className="mt-4 flex justify-center gap-6">
             <Link to="/privacy-policy" className="text-sm text-white/60 transition-colors hover:text-emerald-400">
               Privacy Policy

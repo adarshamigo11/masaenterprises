@@ -85,7 +85,7 @@ export default function CareersPage({ setShowFooter }: { setShowFooter: (show: b
               <h2 className="text-4xl lg:text-5xl font-bold text-white  mb-4">
                 Why Join Us
               </h2>
-              <p className="text-xl text-white/80 mb-16">Choose Nextway for your next career move.</p>
+              <p className="text-xl text-white/80 mb-16">Choose MASA Enterprises for your next career move.</p>
             </FadeInSection>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {[

@@ -79,7 +79,7 @@ export default function KycForm() {
           </div>
           <a
             href="/KYC%20form/Nextway_user_aggrement%20-%20Copy.pdf"
-            download="Nextway_User_Agreement.pdf"
+            download="MASA_User_Agreement.pdf"
             className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700 transition-colors shadow-sm hover:shadow-md"
           >
             <Download className="h-4 w-4" />

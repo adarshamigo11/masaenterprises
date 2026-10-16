@@ -16,7 +16,7 @@ export default function PaymentPage() {
   const bankDetails: BankDetail[] = [
     {
       label: "Account Name",
-      value: "NEXTWAY INFO TECHNOLOGY PVT. LTD.",
+      value: "MASA ENTERPRISES PVT. LTD.",
       icon: <Building2 className="w-5 h-5" />
     },
     {

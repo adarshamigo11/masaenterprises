@@ -9,13 +9,13 @@ const heroSlides = [
   { 
     image: "/images/HERO1.jpg", 
     title: "Smarter Trading with Artificial Intelligence",
-    subtitle: "Nextway Infotech's AI trading systems use real-time data analysis, automated strategies, and predictive insights to help traders maximize opportunities in the stock market.",
+    subtitle: "MASA Enterprises' AI trading systems use real-time data analysis, automated strategies, and predictive insights to help traders maximize opportunities in the stock market.",
     align: "right" as const
   },
   { 
     image: "/images/finance-careers.jpg", 
     title: "Trusted Financial Technology Solutions",
-    subtitle: "Nextway Infotech delivers innovative software solutions for trading, HR management, education, travel, and legal operations. Empowering businesses with technology that works.",
+    subtitle: "MASA Enterprises delivers innovative software solutions for trading, HR management, education, travel, and legal operations. Empowering businesses with technology that works.",
     align: "center" as const
   },
 ]

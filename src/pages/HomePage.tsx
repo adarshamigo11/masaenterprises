@@ -55,7 +55,7 @@ export default function HomePage() {
     <>
       <HeroSection
         title="Trusted Financial Technology Solutions"
-        subtitle="Nextway Infotech delivers innovative software solutions for trading, HR management, education, travel, and legal operations. Empowering businesses with technology that works."
+        subtitle="MASA Enterprises delivers innovative software solutions for trading, HR management, education, travel, and legal operations. Empowering businesses with technology that works."
         ctaText="Explore Services"
         ctaHref="/services"
         secondaryCta="Contact Us"
@@ -66,7 +66,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           {/* Large rounded container with soft padding and subtle shadow */}
           <div className="rounded-3xl bg-gradient-to-br from-gray-50 to-white p-8 lg:p-12 shadow-xl shadow-gray-200/50 border border-gray-100">
-            <SectionHeading title="Why Choose Nextway Infotech Private Limited" subtitle="We combine deep domain expertise with modern technology to deliver solutions that drive real business outcomes." titleColor="text-emerald-600" />
+            <SectionHeading title="Why Choose MASA Enterprises Private Limited" subtitle="We combine deep domain expertise with modern technology to deliver solutions that drive real business outcomes." titleColor="text-emerald-600" />
             
             {/* Two-column responsive layout */}
             <div className="grid gap-8 lg:gap-12 lg:grid-cols-2 items-center mt-12">
@@ -104,7 +104,7 @@ export default function HomePage() {
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-gray-300/50 border border-gray-200">
                   <img
                     src="/images/whychooseus.jpg"
-                    alt="Why Choose Nextway Infotech"
+                    alt="Why Choose MASA Enterprises"
                     className="w-full h-auto object-cover"
                   />
                 </div>
@@ -142,7 +142,7 @@ export default function HomePage() {
                 <div className="flex flex-col items-center px-6">
                   <img
                     src="/images/logo.png"
-                    alt="Nextway Infotech"
+                    alt="MASA Enterprises"
                     className="h-16 w-40 lg:h-20 lg:w-48 object-contain"
                   />
                   
@@ -248,7 +248,7 @@ export default function HomePage() {
                       Integrity, Innovation, and Excellence
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-white/70">
-                      At Nextway Infotech, we are driven by strong values that guide every solution we build. We prioritize transparency, technological innovation, customer success, and continuous improvement to deliver reliable digital solutions that businesses can trust.
+                      At MASA Enterprises, we are driven by strong values that guide every solution we build. We prioritize transparency, technological innovation, customer success, and continuous improvement to deliver reliable digital solutions that businesses can trust.
                     </p>
                   </div>
                 </div>

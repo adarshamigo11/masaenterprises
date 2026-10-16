@@ -6,7 +6,7 @@ const testimonials = [
   { 
     name: "Rajesh Sharma", 
     role: "CEO, TradeTech Solutions", 
-    quote: "Nextway Infotech transformed our trading operations with their algo trading platform. The performance improvements exceeded all our expectations.",
+    quote: "MASA Enterprises transformed our trading operations with their algo trading platform. The performance improvements exceeded all our expectations.",
     rating: 5,
   },
   { 
@@ -30,7 +30,7 @@ const testimonials = [
   { 
     name: "Vikram Singh", 
     role: "Founder, WanderLust Travels", 
-    quote: "Nextway built a tour and travel management platform that perfectly fits our business model.",
+    quote: "MASA Enterprises built a tour and travel management platform that perfectly fits our business model.",
     rating: 5,
   },
   { 

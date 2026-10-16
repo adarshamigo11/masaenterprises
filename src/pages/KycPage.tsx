@@ -126,7 +126,7 @@ export default function KycPage() {
               </h2>
               <h3 className="text-xl text-slate-300 mb-6">Secure Identity Verification for a Safe Trading Environment</h3>
               <p className="text-slate-400 leading-relaxed mb-4">
-                At Nextway Infotech, we are committed to creating a secure and transparent trading ecosystem. Our Know Your Customer (KYC) verification process helps us confirm user identities, prevent fraud, and comply with financial regulations.
+                At MASA Enterprises, we are committed to creating a secure and transparent trading ecosystem. Our Know Your Customer (KYC) verification process helps us confirm user identities, prevent fraud, and comply with financial regulations.
               </p>
               <p className="text-slate-400 leading-relaxed mb-4">
                 By completing KYC verification, users gain access to a safer and more reliable platform while helping maintain the integrity of the financial system.
@@ -288,7 +288,7 @@ export default function KycPage() {
               How Your Data is <span className="text-blue-400">Protected</span>
             </h2>
             <p className="text-lg text-white/70 max-w-3xl mx-auto">
-              At Nextway Infotech, protecting your personal information is our highest priority. We use advanced security practices to ensure your KYC data remains private and secure.
+              At MASA Enterprises, protecting your personal information is our highest priority. We use advanced security practices to ensure your KYC data remains private and secure.
             </p>
           </motion.div>
 

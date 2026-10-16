@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 const accordionItems = [
   {
     title: "Who We Are",
-    content: `Nextway Infotech is a technology company specializing in custom software development, web applications, and enterprise solutions. This Privacy Policy explains how we collect, use, and protect information from clients, visitors, and users who interact with us. By using our services you agree to the practices described here.`
+    content: `MASA Enterprises is a technology company specializing in custom software development, web applications, and enterprise solutions. This Privacy Policy explains how we collect, use, and protect information from clients, visitors, and users who interact with us. By using our services you agree to the practices described here.`
   },
   {
     title: "Information We Collect",
@@ -38,7 +38,7 @@ We do not sell, rent, or share your data with anyone outside of what is strictly
   },
   {
     title: "Intellectual Property",
-    content: `During Development: All code, designs, and deliverables remain the property of Nextway Infotech until full payment is received.
+    content: `During Development: All code, designs, and deliverables remain the property of MASA Enterprises until full payment is received.
 
 After Full Payment: Complete ownership and usage rights are transferred to the client as per the agreed project terms.
 
@@ -63,7 +63,7 @@ We will respond to all requests within a reasonable timeframe.`
   },
   {
     title: "Policy Updates",
-    content: `Nextway Infotech may update this Privacy Policy from time to time. Changes will be published on this page with a revised date. Continued use of our services after any update means you accept the revised policy.`
+    content: `MASA Enterprises may update this Privacy Policy from time to time. Changes will be published on this page with a revised date. Continued use of our services after any update means you accept the revised policy.`
   }
 ]
 
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-lg text-white/90 max-w-[500px] mx-auto mb-8 leading-relaxed"
             >
-              At Nextwayinfo.tech we are committed to protecting your privacy and handling all information with transparency.
+              At MASA Enterprises we are committed to protecting your privacy and handling all information with transparency.
             </motion.p>
 
             {/* Last Updated */}

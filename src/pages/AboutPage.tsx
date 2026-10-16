@@ -36,7 +36,7 @@ export default function AboutPage() {
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/as1.jpg" 
-                  alt="About Nextway Infotech" 
+                  alt="About MASA Enterprises"
                   className="w-full h-auto object-cover"
                 />
               </div>
@@ -50,7 +50,7 @@ export default function AboutPage() {
                 <span className="text-emerald-600">About</span> Us
               </h2>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                At Nextway Infotech Private Limited, we believe technology should simplify complexity and empower businesses to achieve more. As a forward-thinking technology company, we specialize in building intelligent digital solutions that help organizations grow, innovate, and succeed in an increasingly connected world.
+                At MASA Enterprises Private Limited, we believe technology should simplify complexity and empower businesses to achieve more. As a forward-thinking technology company, we specialize in building intelligent digital solutions that help organizations grow, innovate, and succeed in an increasingly connected world.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                 Our expertise spans across financial technology, AI-powered trading systems, business automation tools, and scalable software platforms, designed to meet the evolving needs of modern enterprises.
@@ -77,7 +77,7 @@ export default function AboutPage() {
           <SectionHeading title={<>Our <span className="text-emerald-400">Story</span></>} subtitle="Building the future of technology" light />
           <motion.div {...fadeInUp} className="max-w-4xl mx-auto">
             <p className="text-lg leading-relaxed text-white/90 mb-6">
-              Nextway Infotech Private Limited was founded with a simple vision: to make advanced technology accessible to businesses of all sizes.
+              MASA Enterprises Private Limited was founded with a simple vision: to make advanced technology accessible to businesses of all sizes.
             </p>
             <p className="text-lg leading-relaxed text-white/90 mb-6">
               From developing intelligent trading platforms to creating scalable digital systems for organizations, our journey has always been driven by one goal — delivering reliable technology that creates real impact.
@@ -344,7 +344,7 @@ export default function AboutPage() {
             style={{ transformStyle: "preserve-3d" }}
           >
             <SectionHeading 
-              title={<>Why Choose <span className="text-emerald-400">Nextway Infotech</span></>} 
+              title={<>Why Choose <span className="text-emerald-400">MASA Enterprises</span></>}
               subtitle="Your partner in digital growth" 
               light
             />
@@ -369,7 +369,7 @@ export default function AboutPage() {
               style={{ transformStyle: "preserve-3d" }}
             >
               <p className="text-lg leading-relaxed text-white/90 mb-6">
-                Businesses choose Nextway Infotech because we combine technical expertise with a deep understanding of business challenges.
+                Businesses choose MASA Enterprises because we combine technical expertise with a deep understanding of business challenges.
               </p>
               <p className="text-lg leading-relaxed text-white/90 mb-6">Our approach focuses on:</p>
               <ul className="space-y-3 mb-6">
@@ -411,7 +411,7 @@ export default function AboutPage() {
               Looking Ahead
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              As technology continues to evolve, Nextway Infotech remains committed to pushing boundaries and exploring new possibilities. Our future focus includes expanding our AI-driven trading platforms, fintech innovations, and intelligent automation systems to help businesses navigate the next generation of digital transformation.
+              As technology continues to evolve, MASA Enterprises remains committed to pushing boundaries and exploring new possibilities. Our future focus includes expanding our AI-driven trading platforms, fintech innovations, and intelligent automation systems to help businesses navigate the next generation of digital transformation.
             </p>
           </motion.div>
         </div>

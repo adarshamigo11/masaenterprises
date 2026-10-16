@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --primary: oklch(0.22 0.06 260);
+  --primary-foreground: oklch(0.99 0 0);
+  --accent: oklch(0.72 0.19 155);
+  --accent-foreground: oklch(0.99 0 0);
+  --background: oklch(0.97 0.003 250);
+  --foreground: oklch(0.18 0.04 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.04 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.04 260);
+  --secondary: oklch(0.95 0.005 250);
+  --secondary-foreground: oklch(0.22 0.06 260);
+  --muted: oklch(0.95 0.005 250);
+  --muted-foreground: oklch(0.52 0.02 260);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: oklch(0.90 0.01 250);
+  --input: oklch(0.90 0.01 250);
+  --ring: oklch(0.72 0.19 155);
+  --radius: 0.625rem;
+}
+
+@theme inline {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Playfair Display", serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-navy: oklch(0.22 0.06 260);
+  --color-navy-light: oklch(0.30 0.06 260);
+  --color-emerald: oklch(0.72 0.19 155);
+  --color-emerald-dark: oklch(0.62 0.19 155);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Inter", sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(10, 31, 68, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Auto-flip animation for mobile only (Software Development page - Technologies We Master) */
+@keyframes autoFlip {
+  0%, 40% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  90%, 100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Mobile view - auto flip */
+@media (max-width: 767px) {
+  .tech-card-inner {
+    animation: autoFlip 4s infinite ease-in-out;
+  }
+  
+  /* Ensure both sides visible during animation */
+  .tech-card-inner > div {
+    backface-visibility: visible !important;
+    -webkit-backface-visibility: visible !important;
+  }
+}
+
+/* PC view - hover to flip */
+@media (min-width: 768px) {
+  .tech-card-container:hover .tech-card-inner {
+    transform: rotateY(180deg);
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  /* Ensure backface is hidden on PC for proper 3D effect */
+  .tech-card-inner > div {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+}

@@ -373,8 +373,8 @@ export default function ServiceDetailPage() {
                 45deg,
                 transparent,
                 transparent 1px,
-                #10B981 1px,
-                #10B981 2px
+                #3B3786 1px,
+                #3B3786 2px
               )`,
               backgroundSize: "20px 20px"
             }}
@@ -406,7 +406,7 @@ export default function ServiceDetailPage() {
               transition={{ duration: 0.6 }}
               className="mb-6"
             >
-              <span className="inline-block px-4 py-2 text-[#10B981] text-xs font-semibold tracking-widest uppercase border border-[#10B981]/30 rounded-full">
+              <span className="inline-block px-4 py-2 text-[#3B3786] text-xs font-semibold tracking-widest uppercase border border-[#3B3786]/30 rounded-full">
                 AI TRADING SOLUTIONS
               </span>
             </motion.div>
@@ -420,7 +420,7 @@ export default function ServiceDetailPage() {
               style={{ fontFamily: 'Playfair Display, serif' }}
             >
               Next-Gen Trading Powered by
-              <span className="block text-[#10B981]">
+              <span className="block text-[#3B3786]">
                 Artificial Intelligence
               </span>
             </motion.h1>
@@ -444,14 +444,14 @@ export default function ServiceDetailPage() {
             >
               <Button 
                 size="lg"
-                className="px-8 py-6 bg-[#10B981] text-[#0F0F0F] hover:bg-[#10B981]/90 font-semibold rounded-lg"
+                className="px-8 py-6 bg-[#3B3786] text-white hover:bg-[#3B3786]/90 font-semibold rounded-lg"
               >
                 Get Started Free
               </Button>
               <Button 
                 size="lg"
                 variant="outline"
-                className="px-8 py-6 border-2 border-[#10B981] text-[#10B981] hover:bg-[#10B981]/10 font-semibold rounded-lg bg-transparent"
+                className="px-8 py-6 border-2 border-[#3B3786] text-[#3B3786] hover:bg-[#3B3786]/10 font-semibold rounded-lg bg-transparent"
               >
                 See How It Works
               </Button>
@@ -471,7 +471,7 @@ export default function ServiceDetailPage() {
                 { value: "₹500Cr+", label: "Volume Managed" }
               ].map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-3xl lg:text-4xl font-bold text-[#10B981] mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>
+                  <div className="text-3xl lg:text-4xl font-bold text-[#3B3786] mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>
                     {stat.value}
                   </div>
                   <div className="text-sm text-[#8A8A80] uppercase tracking-wider">
@@ -3066,7 +3066,7 @@ export default function ServiceDetailPage() {
                 A complete ERP solution that digitizes academics, administration, and parent communication for modern educational institutions.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Button asChild size="lg" className="bg-[#FF6D00] text-white hover:bg-orange-600 rounded-full px-8 py-6 text-lg">
+                <Button asChild size="lg" className="bg-[#3B3786] text-white hover:bg-[#3B3786]/90 rounded-full px-8 py-6 text-lg">
                   <Link to="/contact">Schedule a Free Demo</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 rounded-full px-8 py-6 text-lg">
@@ -3099,7 +3099,7 @@ export default function ServiceDetailPage() {
         </section>
 
         {/* Section 2 - Stats Strip */}
-        <section className="py-20 bg-gradient-to-r from-[#0D1B4B] via-[#FF6D00] to-[#0D1B4B]">
+        <section className="py-20 bg-gradient-to-r from-[#1a1545] via-[#3B3786] to-[#1a1545]">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               {[
@@ -3453,10 +3453,10 @@ export default function ServiceDetailPage() {
                 Join 100+ schools already running smarter with our platform.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Button asChild size="lg" className="bg-[#FF6D00] text-white hover:bg-orange-600 rounded-full px-8 py-6 text-lg">
+                <Button asChild size="lg" className="bg-[#3B3786] text-white hover:bg-[#3B3786]/90 rounded-full px-8 py-6 text-lg">
                   <Link to="/contact">Schedule Your Free Demo</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="border-[#FF6D00] text-[#FF6D00] hover:bg-[#FF6D00]/10 rounded-full px-8 py-6 text-lg">
+                <Button asChild variant="outline" size="lg" className="border-[#3B3786] text-[#3B3786] hover:bg-[#3B3786]/10 rounded-full px-8 py-6 text-lg">
                   <Link to="/contact">Talk to Our Team</Link>
                 </Button>
               </div>

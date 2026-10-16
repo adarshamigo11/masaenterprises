@@ -117,7 +117,7 @@ export default function PrivacyPolicyPage() {
       <Navbar />
       
       {/* SECTION 1 — HERO */}
-      <section className="relative w-full bg-gradient-to-r from-[#065f46] to-[#059669] py-20 lg:py-28 overflow-hidden">
+      <section className="relative w-full bg-gradient-to-r from-[#1a1545] to-[#3B3786] py-20 lg:py-28 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Pill Badge */}
@@ -185,7 +185,7 @@ export default function PrivacyPolicyPage() {
       </section>
 
       {/* SECTION 3 — BOTTOM CTA */}
-      <section className="relative w-full bg-gradient-to-r from-[#065f46] via-[#059669] to-[#047857] py-16 lg:py-20 overflow-hidden">
+      <section className="relative w-full bg-gradient-to-r from-[#1a1545] via-[#3B3786] to-[#2a2470] py-16 lg:py-20 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <motion.h2

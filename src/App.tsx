@@ -9,7 +9,6 @@ import AboutPage from "./pages/AboutPage"
 import ServicesPage from "./pages/ServicesPage"
 import ServiceDetailPage from "./pages/ServiceDetailPage"
 import ContactPage from "./pages/ContactPage"
-import KycPage from "./pages/KycPage"
 import BlogsPage from "./pages/BlogsPage"
 import BlogDetailPage from "./pages/BlogDetailPage"
 import CareersPage from "./pages/CareersPage"
@@ -44,7 +43,6 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/:slug" element={<ServiceDetailPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/kyc" element={<KycPage />} />
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/blogs/:slug" element={<BlogDetailPage />} />
           <Route path="/careers" element={<CareersPage setShowFooter={setShowFooter} />} />

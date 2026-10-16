@@ -29,9 +29,9 @@ export default function ThankYouPage() {
                   damping: 15,
                   delay: 0.3
                 }}
-                className="w-24 h-24 mx-auto mb-6 rounded-full bg-green-100 flex items-center justify-center"
+                className="w-24 h-24 mx-auto mb-6 rounded-full bg-emerald-100 flex items-center justify-center"
               >
-                <CheckCircle className="w-16 h-16 text-green-600" />
+                <CheckCircle className="w-16 h-16 text-emerald-600" />
               </motion.div>
 
               {/* Heading */}

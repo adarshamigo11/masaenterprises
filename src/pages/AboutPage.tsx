@@ -50,7 +50,7 @@ export default function AboutPage() {
                 <span className="text-emerald-600">About</span> Us
               </h2>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                At MASA Enterprises Private Limited, we believe technology should simplify complexity and empower businesses to achieve more. As a forward-thinking technology company, we specialize in building intelligent digital solutions that help organizations grow, innovate, and succeed in an increasingly connected world.
+                At MASA Enterprises, we believe technology should simplify complexity and empower businesses to achieve more. As a forward-thinking technology company, we specialize in building intelligent digital solutions that help organizations grow, innovate, and succeed in an increasingly connected world.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                 Our expertise spans across financial technology, AI-powered trading systems, business automation tools, and scalable software platforms, designed to meet the evolving needs of modern enterprises.
@@ -77,7 +77,7 @@ export default function AboutPage() {
           <SectionHeading title={<>Our <span className="text-emerald-400">Story</span></>} subtitle="Building the future of technology" light />
           <motion.div {...fadeInUp} className="max-w-4xl mx-auto">
             <p className="text-lg leading-relaxed text-white/90 mb-6">
-              MASA Enterprises Private Limited was founded with a simple vision: to make advanced technology accessible to businesses of all sizes.
+              MASA Enterprises was founded with a simple vision: to make advanced technology accessible to businesses of all sizes.
             </p>
             <p className="text-lg leading-relaxed text-white/90 mb-6">
               From developing intelligent trading platforms to creating scalable digital systems for organizations, our journey has always been driven by one goal — delivering reliable technology that creates real impact.
@@ -193,8 +193,8 @@ export default function AboutPage() {
         {/* Animated Background Effects */}
         <div className="absolute inset-0">
           {/* Emerald/Green smoke effect */}
-          <div className="absolute bottom-0 right-0 w-[800px] h-[800px] bg-gradient-to-tl from-emerald-900/40 via-green-800/20 to-transparent blur-3xl animate-pulse" />
-          <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-gradient-to-tl from-teal-900/30 via-emerald-700/15 to-transparent blur-2xl animate-pulse" style={{ animationDelay: '1s' }} />
+          <div className="absolute bottom-0 right-0 w-[800px] h-[800px] bg-gradient-to-tl from-emerald-900/40 via-emerald-800/20 to-transparent blur-3xl animate-pulse" />
+          <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-gradient-to-tl from-emerald-900/30 via-emerald-700/15 to-transparent blur-2xl animate-pulse" style={{ animationDelay: '1s' }} />
           {/* Light rays */}
           <div className="absolute bottom-0 right-0 w-full h-full overflow-hidden">
             <div className="absolute bottom-[-50%] right-[-20%] w-[1000px] h-[1000px] bg-gradient-to-tl from-emerald-500/10 via-transparent to-transparent rotate-45 transform origin-bottom-right" />

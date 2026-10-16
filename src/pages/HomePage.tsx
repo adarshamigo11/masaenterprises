@@ -66,7 +66,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           {/* Large rounded container with soft padding and subtle shadow */}
           <div className="rounded-3xl bg-gradient-to-br from-gray-50 to-white p-8 lg:p-12 shadow-xl shadow-gray-200/50 border border-gray-100">
-            <SectionHeading title="Why Choose MASA Enterprises Private Limited" subtitle="We combine deep domain expertise with modern technology to deliver solutions that drive real business outcomes." titleColor="text-emerald-600" />
+            <SectionHeading title="Why Choose MASA Enterprises" subtitle="We combine deep domain expertise with modern technology to deliver solutions that drive real business outcomes." titleColor="text-emerald-600" />
             
             {/* Two-column responsive layout */}
             <div className="grid gap-8 lg:gap-12 lg:grid-cols-2 items-center mt-12">

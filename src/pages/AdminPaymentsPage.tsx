@@ -126,7 +126,7 @@ export default function AdminPaymentsPage() {
                     <div className="flex items-center gap-2">
                       <p className="font-semibold text-lg text-foreground">{inquiry.fullName}</p>
                       {inquiry.status === 'approved' && (
-                        <CheckCircle className="h-5 w-5 text-green-600" />
+                        <CheckCircle className="h-5 w-5 text-emerald-600" />
                       )}
                     </div>
                     <p className="text-sm text-muted-foreground">{inquiry.email}</p>
@@ -150,7 +150,7 @@ export default function AdminPaymentsPage() {
                         size="sm"
                         onClick={() => handleApprove(inquiry._id, inquiry.fullName)}
                         disabled={processingId === inquiry._id}
-                        className="bg-green-600 text-white hover:bg-green-700"
+                        className="bg-emerald-600 text-white hover:bg-emerald-700"
                       >
                         <CheckCircle className="h-4 w-4 mr-1" />
                         Approve

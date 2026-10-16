@@ -2584,7 +2584,7 @@ export default function ServiceDetailPage() {
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="rounded-3xl p-8 bg-gradient-to-br from-emerald-900/20 to-green-900/20 border border-emerald-500/30"
+                className="rounded-3xl p-8 bg-gradient-to-br from-emerald-900/20 to-emerald-900/20 border border-emerald-500/30"
               >
                 <h3 className="text-2xl font-bold text-emerald-400 mb-6 flex items-center gap-3">
                   <span className="text-4xl">✅</span>
@@ -3177,27 +3177,27 @@ export default function ServiceDetailPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
-                className="rounded-3xl p-8 bg-gradient-to-b from-green-50 to-white border border-green-200 shadow-lg hover:shadow-xl transition-shadow"
+                className="rounded-3xl p-8 bg-gradient-to-b from-emerald-50 to-white border border-emerald-200 shadow-lg hover:shadow-xl transition-shadow"
               >
                 <div className="text-center mb-6">
                   <div className="text-6xl mb-4"></div>
-                  <h3 className="text-2xl font-bold text-green-900">The Teacher</h3>
+                  <h3 className="text-2xl font-bold text-emerald-900">The Teacher</h3>
                 </div>
                 <div className="space-y-4 mb-6">
                   <div className="flex items-start gap-3">
-                    <span className="text-green-500 font-bold">Morning:</span>
+                    <span className="text-emerald-500 font-bold">Morning:</span>
                     <p className="text-gray-700">Marks attendance on mobile app in under 2 minutes</p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-green-500 font-bold">Midday:</span>
+                    <span className="text-emerald-500 font-bold">Midday:</span>
                     <p className="text-gray-700">Uploads homework and study material for students</p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-green-500 font-bold">Evening:</span>
+                    <span className="text-emerald-500 font-bold">Evening:</span>
                     <p className="text-gray-700">Enters exam marks — results auto-calculate and publish</p>
                   </div>
                 </div>
-                <div className="italic text-green-800 text-center">
+                <div className="italic text-emerald-800 text-center">
                   "Less paperwork. More time for teaching."
                 </div>
               </motion.div>

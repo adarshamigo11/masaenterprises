@@ -7,7 +7,6 @@ const quickLinks = [
   { title: "Services", href: "/services" },
   { title: "Blogs", href: "/blogs" },
   { title: "Careers", href: "/careers" },
-  { title: "KYC", href: "/kyc" },
   { title: "Contact", href: "/contact" },
 ]
 
@@ -72,13 +71,13 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 shrink-0 text-emerald-400" />
-                <a href="mailto:contact@nextwayinfo.tech" className="text-base text-white/80 hover:text-emerald-400">info@nextwayinfotech.com</a>
+                <a href="mailto:info@masaenterprises.com" className="text-base text-white/80 hover:text-emerald-400">info@masaenterprises.com</a>
               </li>
             </ul>
           </div>
         </div>
         <div className="mt-10 border-t border-white/20 pt-6 text-center">
-          <p className="text-base text-white/60">{new Date().getFullYear()} MASA Enterprises Private Limited. All rights reserved.</p>
+          <p className="text-base text-white/60">{new Date().getFullYear()} MASA Enterprises. All rights reserved.</p>
           <div className="mt-4 flex justify-center gap-6">
             <Link to="/privacy-policy" className="text-sm text-white/60 transition-colors hover:text-emerald-400">
               Privacy Policy

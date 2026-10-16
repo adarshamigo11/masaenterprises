@@ -16,7 +16,6 @@ const navLinks = [
   { title: "Home", href: "/" },
   { title: "About", href: "/about" },
   { title: "Services", href: "/services", hasDropdown: true },
-  { title: "KYC", href: "/kyc" },
   { title: "Blogs", href: "/blogs" },
   { title: "Careers", href: "/careers" },
   { title: "Contact", href: "/contact" },

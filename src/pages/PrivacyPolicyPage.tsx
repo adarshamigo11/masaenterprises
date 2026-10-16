@@ -56,8 +56,8 @@ While we take every precaution, no digital system can guarantee absolute securit
 
 To exercise these rights or for any privacy-related questions contact us at:
 
-📧 info@nextwayinfo.tech
-🌐 www.nextwayinfo.tech
+📧 info@masaenterprises.com
+🌐 www.masaenterprises.com
 
 We will respond to all requests within a reasonable timeframe.`
   },

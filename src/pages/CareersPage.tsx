@@ -150,7 +150,7 @@ export default function CareersPage({ setShowFooter }: { setShowFooter: (show: b
                 <div className="flex flex-col items-center gap-4 py-16 text-center">
                   <Briefcase className="h-16 w-16 text-white/60" />
                   <h3 className="text-xl font-semibold text-white ">No open positions</h3>
-                  <p className="max-w-md text-white/70">Send your resume to careers@nextwayinfotech.com</p>
+                  <p className="max-w-md text-white/70">Send your resume to info@masaenterprises.com</p>
                 </div>
               </FadeInSection>
             ) : (

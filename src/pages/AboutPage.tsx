@@ -224,10 +224,9 @@ export default function AboutPage() {
           {/* 2x2 Grid of Services - Ordered: 01→02→04→03 (Z-pattern) */}
           <div className="grid gap-6 md:grid-cols-2 max-w-4xl mx-auto">
             {[
-              { num: "01", title: "AI Trading Platforms", desc: "Intelligent trading systems powered by data analysis and automation", arrow: "right" },
-              { num: "02", title: "Financial Technology", desc: "Secure and scalable fintech platforms for modern finance", arrow: "down" },
-              { num: "04", title: "Custom Development", desc: "Tailored software solutions built to meet unique business needs", arrow: "none" },
-              { num: "03", title: "Business Automation", desc: "Tools that streamline operations and improve efficiency", arrow: "left" },
+              { num: "01", title: "Financial Technology", desc: "Secure and scalable fintech platforms for modern finance", arrow: "right" },
+              { num: "02", title: "Custom Development", desc: "Tailored software solutions built to meet unique business needs", arrow: "down" },
+              { num: "03", title: "Business Automation", desc: "Tools that streamline operations and improve efficiency", arrow: "none" },
             ].map((service, i) => (
               <motion.div
                 key={service.num}

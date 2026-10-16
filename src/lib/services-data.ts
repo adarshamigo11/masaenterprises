@@ -32,31 +32,6 @@ export interface ServiceData {
 
 export const servicesData: ServiceData[] = [
   {
-    slug: "ai-trading",
-    title: "AI Trading Solutions",
-    shortTitle: "AI Trading",
-    description: "Next-Gen Trading Powered by Artificial Intelligence. Our self-learning AI models analyze millions of market signals in real-time to execute smarter, faster, and more profitable trades — completely automated.",
-    longDescription: "Our AI trading platform leverages cutting-edge machine learning and deep learning technologies to revolutionize how you trade. With self-learning models that improve with every trade, you get an intelligent trading partner that never sleeps. From predictive analytics to automated risk management, our AI handles everything while you focus on strategy. Whether you're a retail trader or institution, our platform scales to meet your needs with strategies that adapt to changing market conditions automatically.",
-    icon: BarChart3,
-    features: [
-      { icon: LineChart, title: "Real-Time AI Analytics", description: "Deep learning models process live market feeds, news sentiment, and order book data simultaneously with sub-second latency." },
-      { icon: Shield, title: "Intelligent Risk Management", description: "ML-powered risk engine monitors portfolio exposure, auto-adjusts position sizing, and triggers stop-loss using predictive volatility models." },
-      { icon: Zap, title: "High-Speed AI Execution", description: "Reinforcement learning-based execution algorithms minimize market impact and slippage during ultra-low latency order placement." },
-      { icon: TrendingUp, title: "AI Backtesting Engine", description: "Train and validate strategies using ensemble ML models against 10+ years of tick-by-tick historical data with walk-forward optimization." },
-      { icon: Globe, title: "Sentiment Analysis Engine", description: "NLP models scan thousands of news articles, earnings calls, and social media in real-time to detect market-moving sentiment shifts." },
-      { icon: Settings, title: "Adaptive Strategy Optimization", description: "AI continuously retrains using online machine learning — strategies auto-adapt to changing market regimes without manual intervention." },
-    ],
-    benefits: [
-      "Self-Learning Models — AI improves with every trade it makes",
-      "Emotion-Free Trading — 100% data-driven decisions, zero human bias",
-      "24/7 Autonomous Operation — AI monitors and trades round the clock including pre-market and after-hours",
-      "Multi-Signal Intelligence — Combines technical, fundamental, and sentiment signals into one unified model",
-      "Predictive Risk Scoring — AI assigns a risk score to every trade before execution",
-      "Regime Detection — ML models identify bull, bear, and sideways market conditions and switch strategies automatically",
-      "Explainable AI (XAI) — Every trade decision comes with a human-readable explanation of why the AI placed that trade",
-    ],
-  },
-  {
     slug: "software-development",
     title: "Custom Software Development",
     shortTitle: "Software Development",

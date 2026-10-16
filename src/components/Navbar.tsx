@@ -5,7 +5,6 @@ import { Menu, X, ChevronDown } from "lucide-react"
 import { Button } from "./ui/button"
 
 const services = [
-  { title: "AI Trading", href: "/services/ai-trading" },
   { title: "Software Development", href: "/services/software-development" },
   { title: "HRM & Payroll", href: "/services/hrm-payroll" },
   { title: "School Management", href: "/services/school-management" },

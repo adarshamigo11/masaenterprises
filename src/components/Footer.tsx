@@ -11,7 +11,6 @@ const quickLinks = [
 ]
 
 const serviceLinks = [
-  { title: "AI Trading", href: "/services/ai-trading" },
   { title: "Software Development", href: "/services/software-development" },
   { title: "HRM & Payroll", href: "/services/hrm-payroll" },
   { title: "School Management", href: "/services/school-management" },

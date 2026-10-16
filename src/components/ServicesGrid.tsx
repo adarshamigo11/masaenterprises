@@ -5,12 +5,6 @@ import { useState } from "react"
 
 const services = [
   { 
-    title: "AI Trading", 
-    description: "Next-Gen Trading Powered by Artificial Intelligence. Our self-learning AI models analyze millions of market signals in real-time to execute smarter, faster, and more profitable trades.", 
-    image: "/images/services/AIT.jpg",
-    href: "/services/ai-trading" 
-  },
-  { 
     title: "Software Development", 
     description: "We Don't Just Write Code. We Engineer Solutions. From idea to deployment, we build powerful, scalable, and secure software tailored to your exact business needs.", 
     image: "/images/services/SD.jpg",
